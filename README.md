@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+## 项目准备
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+线上地址:
 
-## Available Scripts
+https://m-haoke-web.itheima.net/home
 
-In the project directory, you can run:
+服务器地址：
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 技术栈
 
-### `npm test`
+前端框架:  React -->  https://react.docschina.org/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 路由: react-router-dom --> https://reactrouter.com/web/ 
 
-### `npm run build`
+UI 框架:  antd-mobile-->  https://mobile.ant.design/index-cn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ajax请求:  axios--> http://www.axios-js.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+百度地图 -->  http://lbsyun.baidu.com/index.php?title=jspopularGL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+脚手架工具:  create-react-app--> https://create-react-app.dev/
 
-### `npm run eject`
+字体图标: iconfont --> https://www.iconfont.cn/ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+其他组件库: react-virtualized、formik+yup、react-spring等
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 项目目录结构
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 创建项目
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```shll
+npx create-react-app hkzf-mobile
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 集成mobile-ant-design
 
-### Code Splitting
+```shll
+npm  install antd-mobile  babel-plugin-import  react-app-rewired customize-cra  --save
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 集成路由
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```shll
+npm react-router-dom  --save
+```
